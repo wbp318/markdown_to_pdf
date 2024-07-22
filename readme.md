@@ -12,7 +12,7 @@ This application converts Markdown files to PDF format with a simple graphical u
 
 ## How to Use
 
-1. Download the `markdown_to_pdf_converter.exe` file from the [Releases](link-to-your-releases-page) section.
+1. Download the `markdown_to_pdf_simple.exe` file from the dist folder.
 2. Double-click the executable to run the application.
 3. Click "Select Markdown File" to choose your .md file.
 4. Click "Convert and Open PDF" to generate the PDF.
