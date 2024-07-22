@@ -1,17 +1,17 @@
-##import tkinter as tk
-##from tkinter import filedialog, messagebox
-#import markdown
-#from reportlab.lib.pagesizes import letter
-#from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
-#from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-#from reportlab.lib.enums import TA_LEFT
-#import os
-#import sys
+import tkinter as tk
+from tkinter import filedialog, messagebox
+import markdown
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.enums import TA_LEFT
+import os
+import sys
 
-#class MarkdownToPDFConverter:
-#    def __init__(self, master):
- #       self.master = master
-      #  master.title("Markdown to PDF Converter")
+class MarkdownToPDFConverter:
+    def __init__(self, master):
+        self.master = master
+        master.title("Markdown to PDF Converter")
         master.geometry("400x250")
         master.resizable(False, False)
 
@@ -19,7 +19,7 @@
         if getattr(sys, 'frozen', False):
             application_path = sys._MEIPASS
         else:
-  #          application_path = os.path.dirname(os.path.abspath(__file__))
+            application_path = os.path.dirname(os.path.abspath(__file__))
 
         icon_path = os.path.join(application_path, "python_logo.ico")
         if os.path.exists(icon_path):
