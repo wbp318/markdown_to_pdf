@@ -11,7 +11,7 @@
 #class MarkdownToPDFConverter:
 #    def __init__(self, master):
  #       self.master = master
-        master.title("Markdown to PDF Converter")
+      #  master.title("Markdown to PDF Converter")
         master.geometry("400x250")
         master.resizable(False, False)
 
